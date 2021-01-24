@@ -1,0 +1,232 @@
+.nav-head .navbar {
+  background-color: #458B74;
+  padding: 0%;
+}
+
+.nav-head .navbar ul li a {
+  color: #fff !important;
+  font-size: 15px;
+  
+}
+
+.nav-head .navbar ul li a:hover {
+  background-color: #fff !important;
+  color: #458B74 !important;
+}
+
+.nav-head .navbar-brand {
+  color: #fff !important;
+  font-size: 20px;
+}
+
+
+/***** HOME *****/
+
+#home {
+  background: url("https://dl.dropboxusercontent.com/s/4m9w1xo90gocn9z/SSGTHB82F6.jpg?dl=0") no-repeat center center fixed;
+  background-size: cover;
+  height: 680px;
+  width: 100%;
+  margin: auto;
+}
+
+.home-wrap {
+  padding-top: 140px;
+}
+
+.home-header {
+  font-family: 'Oswald';
+  font-size: 60px;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Oswald';
+  font-size: 40px;
+  color: #fff;
+}
+
+.home-line {
+  border: 0;
+  height: 3px;
+  width: 90%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 153, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.btn {
+  margin: 10px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #458B74;
+  color: #fff;
+  border: none;
+  font-size: 25px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #458B74;
+}
+
+
+/***** ABOUT *****/
+
+#about {
+  background-color: #458B74;
+  color: #fff;
+  padding-bottom: 80px;
+}
+
+.about-wrap {
+  width: 60%;
+  margin: auto;
+  margin-top: 95px;
+}
+
+h1 {
+  font-family: 'Oswald';
+  text-align: center;
+}
+
+.line {
+  margin-top: 30px;
+  width: 50%;
+  height: 2px;
+  background-color: orange;
+  border: none;
+}
+
+.about-text {
+  font-size: 23px;
+  font-family: 'PT Serif', serif;
+  text-align: justify;
+}
+
+.camp-link {
+  color: #fff;
+}
+
+.skills-list li {
+  font-size: 18px;
+  list-style-position: inside;
+  text-align: justify;
+  margin-left: 40px;
+}
+
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #EEDFCC;
+}
+
+.portfolio-header {
+  color: #000;
+}
+
+.placeholder-item {
+  margin-top: 40px;
+  text-align: center;
+  overflo: hidden;
+}
+
+.placeholder-desc {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #000;
+}
+
+img {
+  border: 1px solid orange;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.divider {
+  background-color: #458B74;
+  height: 3px;
+}
+
+
+/***** CONTACT *****/
+
+#contact {
+  background-color: #EEDFCC;
+  padding-top: 10px;
+  padding-bottom: 65px;
+}
+
+.contact-header {
+  font-family: "Oswald";
+  color: #000;
+  font-size: 40px;
+}
+
+.contact-line {
+  background-color: orange;
+  border: none;
+  height: 2px;
+  width: 40%;
+}
+
+.contact-wrap {
+  margin-top: 60px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+input {
+  width: 40%;
+  height: 30px;
+  margin: 10px;
+}
+
+#message {
+  width: 40%;
+  height: 200px;
+  margin-top: 10px;
+}
+
+#submit-button {
+  width: 10%;
+  height: 40px;
+}
+
+
+/***** FOOTER *****/
+
+footer {
+  background-color: #458B74;
+  height: 40px;
+}
+
+.footer-menu {
+  margin-left: -30px;
+}
+
+.footer-menu li {
+  display: inline;
+  margin: 10px;
+}
+
+.footer-menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-text {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .skills-list li {
+    font-size: 15px;
+  }
+}
